@@ -50,6 +50,7 @@ const App = () => {
       setSortedBooks([]); 
     }
   }, [sortBy, ordered, books]);
+  console.log("fist")
 
   return (
     <div>
